@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ESRI\\WorkOrdersApi\\WorkOrdersApi.csproj": {}
+    "/workspaces/WorkOrdersApi/WorkOrdersApi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ESRI\\WorkOrdersApi\\WorkOrdersApi.csproj": {
+    "/workspaces/WorkOrdersApi/WorkOrdersApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ESRI\\WorkOrdersApi\\WorkOrdersApi.csproj",
+        "projectUniqueName": "/workspaces/WorkOrdersApi/WorkOrdersApi.csproj",
         "projectName": "WorkOrdersApi",
-        "projectPath": "C:\\Projects\\ESRI\\WorkOrdersApi\\WorkOrdersApi.csproj",
-        "packagesPath": "C:\\Users\\marfra\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ESRI\\WorkOrdersApi\\obj\\",
+        "projectPath": "/workspaces/WorkOrdersApi/WorkOrdersApi.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/WorkOrdersApi/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marfra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.56.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -84,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

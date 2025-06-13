@@ -1,0 +1,24 @@
+using Microsoft.SemanticKernel;
+using Microsoft.SemanticKernel.Connectors.OpenAI;
+
+public class SemanticKernelSample
+{
+    public async Task RunAsync()
+    {
+        // Create a new kernel builder
+        var builder = Kernel.CreateBuilder();
+
+        // Add OpenAI text completion service (replace with your API key and model)
+        builder.AddOpenAIChatCompletion(
+            modelId: "gpt-3.5-turbo", // or your preferred model
+            apiKey: "da73c4ee58464524a64c5c9fa18bc3a5"
+        );
+
+        var kernel = builder.Build();
+
+        // Run a prompt
+        var result = await kernel.InvokePromptAsync("Write a short poem about the sea.");
+
+        Console.WriteLine(result.GetValue<string>());
+    }
+}
